@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(142, 142, 194);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+header, footer{
+    grid-column: 1/-1; 
+    background-color: azure;
+    
+}
