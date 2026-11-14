@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130</title>
+    <title>WDD 130 | Heitor Ribeiro</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1f4e79;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #1f4e79;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>WDD 130</h1>
-    <p>Welcome to my WDD 130 website.</p>
+
+    <header>
+        <h1>WDD 130</h1>
+        <p>Web Fundamentals | Heitor Ribeiro</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Welcome</h2>
+            <p>
+                Welcome to my WDD 130 website. This site contains the projects
+                and assignments I have worked on throughout the course.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li><a href="wwr/">White Water Rafting Website</a></li>
+                <li><a href="gallery/">Gallery</a></li>
+                <li><a href="apostle_spotlight/">Apostle Spotlight</a></li>
+                <li><a href="prophet_cards/">Prophet Cards</a></li>
+                <li><a href="signup/">Signup Page</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Heitor Ribeiro | WDD 130</p>
+    </footer>
+
 </body>
 </html>
